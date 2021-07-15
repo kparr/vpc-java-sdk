@@ -50,25 +50,24 @@ Service Name | Artifact Coordinates
 [ibm-cloud-onboarding]: https://cloud.ibm.com/registration
 
 * An [IBM Cloud][ibm-cloud-onboarding] account.
-* An IAM API key to allow the SDK to access your account. Create one [here](https://cloud.ibm.com/iam/apikeys).
+* An IAM API key to allow the SDK to access your account. Create an apikey [here](https://cloud.ibm.com/iam/apikeys).
 * Java 8 or above.
 
 ## Installation
 The current version of this SDK is: 0.5.0
 
-Each service's artifact coordinates are listed in the table above.
+Each service's artifact coordinates are listed in the **Overview** table.
 
 The project artifacts are published on the following public maven repositories:
 <!-- - [JCenter](https://bintray.com/bintray/jcenter) - For information on how to use the
 public JCenter maven repository, open [this link](https://bintray.com/bintray/jcenter)
 then click the `Set Me Up!` button. -->
-- [Maven Central](https://repo1.maven.org/maven2/) - This is the default public repository
-used by maven when searching for dependencies.  To use this repository within your
-gradle build, please see
-[this link](https://docs.gradle.org/current/userguide/declaring_repositories.html).
+- [Maven Central](https://repo1.maven.org/maven2/) - The default public repository
+used by maven to search for dependencies. To use this repository within your
+gradle build, see [Declaring repositories](https://docs.gradle.org/current/userguide/declaring_repositories.html).
 
 To use a particular service, define a dependency that contains the
-artifact coordinates (group id, artifact id and version) for the service, like this:
+artifact coordinates (group id, artifact id, and version) for the service, like this:
 
 ##### Maven
 
@@ -86,21 +85,20 @@ artifact coordinates (group id, artifact id and version) for the service, like t
 ```
 
 ## Using the SDK
-For general SDK usage information, please see [this link](https://github.com/IBM/ibm-cloud-sdk-common/blob/master/README.md)
+For general SDK usage information, please see the [IBM Cloud SDK Common README](https://github.com/IBM/ibm-cloud-sdk-common/blob/master/README.md)
 
 ## Questions
 
-If you are having difficulties using this SDK or have a question about the IBM Cloud services,
-please ask a question at
-[Stack Overflow](http://stackoverflow.com/questions/ask?tags=ibm-cloud).
+If you have difficulties using this SDK or you have a question about the IBM Cloud services, 
+ask a question at [Stack Overflow](http://stackoverflow.com/questions/ask?tags=ibm-cloud).
 
 ## Issues
 If you encounter an issue with the project, you are welcome to submit a
 [bug report](https://github.com/IBM/vpc-java-sdk/issues).
-Before that, please search for similar issues. It's possible that someone has already reported the problem.
+Before create a new issue, search for similar issues. It's possible that someone has already reported the problem.
 
 ## Open source @ IBM
-Find more open source projects on the [IBM Github Page](http://ibm.github.io/)
+Find more open source projects on the [IBM GitHub Page](http://ibm.github.io/)
 
 ## Contributing
 See [CONTRIBUTING](https://github.com/IBM/vpc-java-sdk/blob/master/CONTRIBUTING.md).
